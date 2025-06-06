@@ -1,0 +1,20 @@
+.hero{
+  display: grid;
+  
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  justify-self: center;
+  align-items: center;
+  gap: 40px;
+
+   .img-hero{
+    display: flex;  
+    width: 412px;
+    height: 104px;
+   }
+
+   
+
+  
+}

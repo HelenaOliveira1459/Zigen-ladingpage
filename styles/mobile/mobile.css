@@ -21,6 +21,7 @@
     --pblock:48px;
     --pinline:24px;
     
+    
     .desktop-only{
       display: none;
     }
@@ -29,6 +30,53 @@
       display: none;
     }
     
+    .hero{
+      display: grid;       
+      gap: 32px;
+      .img-hero{
+        width: 206px;
+        height: 52px;
+      }
+
+      .textos-hero h1{
+        
+        color: var(--text-color-primary);
+        font-family: var(--font-family-inter);
+        font-size: 40px;
+        font-weight: 800;
+        letter-spacing: -1.6px;
+        display: flex;
+        
+        justify-content: center;
+        text-align: center;      
+      }
+
+      .textos-hero h2{
+        color: var(--text-color-secondary);
+        font-family: var(--font-family-inter);
+        font-size: 20px;
+        font-weight: 800;
+        letter-spacing: -1.6px;
+        display: flex;
+        justify-content: center;
+        text-align: center;      
+      }
+      .textos-hero{
+        display: grid;
+        gap: 8px;
+        
+      }
+     
+      .buttons-principal{
+      display: flex;
+      gap: 16px;
+        .button-principal{    
+          width: 144px;
+          height: 48px;          
+        }
+        
+      }
+    }
   }
 }
 

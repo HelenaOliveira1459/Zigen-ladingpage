@@ -3,7 +3,9 @@
     border: 0;
     background-color: transparent;
     align-items: center;
+    align-content: center;
     width: fit-content;
+    text-decoration: none;
     
     
     &::after{
@@ -21,14 +23,23 @@
   display: flex;
   gap: 50px;
   justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  align-self: center;
 
   .naves{
     display: flex;
     gap: 24px;
+    align-items: center;
+    align-content: center;
+    align-self: center;
 
     .navigation{
       display: flex;
       gap: 30px;
+     align-items: center;
+    align-content: center;
+    align-self: center;
     }
   }
   .logo {
