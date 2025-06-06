@@ -1,0 +1,48 @@
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+body{
+  background-color: var(--background-color);
+}
+
+:root{
+  --background-color:#09090B;
+  --surface-color:#18181B;
+  --stroke-color:#27272A;
+  --text-color-secondary:#A1A1AA;
+  --text-color-primary:#F4F4F5;
+  --brand-color-primary:#f7b733;
+  --brand-color-secondary:#fc4a1a;
+
+  --font-family: "Paytone One", sans-serif;
+  --logo:400 24px/100% var(--font-family);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

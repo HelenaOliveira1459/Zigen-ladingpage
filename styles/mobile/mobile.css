@@ -1,0 +1,35 @@
+
+@media (width <= 375px) {
+  :root{
+    --mob-h1: bolder 40px/120% var(--font-family-inter);
+    --mob-h2: bolder 24px/120% var(--font-family-inter);
+    --mob-h3: bolder 20px/120% var(--font-family-inter);
+    --mob-span: medium 14px/100% var(--font-family-inter);
+    --mob-paragraph: normal 16px/160% var(--font-family-inter); 
+
+    --pinline:24px;
+    --pblock:48px;
+    --pnavin:32px;
+    --pnavb:24px;
+  }
+
+}
+
+@media (width <= 375px){
+  .container{
+    --max-width: 375px;
+    --pblock:48px;
+    --pinline:24px;
+    
+    .desktop-only{
+      display: none;
+    }
+
+    .naves{
+      display: none;
+    }
+    
+  }
+}
+
+

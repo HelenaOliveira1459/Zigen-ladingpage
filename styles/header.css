@@ -1,0 +1,39 @@
+.nav [aria-label]{
+    position: relative;
+    border: 0;
+    background-color: transparent;
+    align-items: center;
+    width: fit-content;
+    
+    
+    &::after{
+      content: attr(aria-label);
+      background-color: rgb(253, 255, 255);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+      
+    }
+   
+}
+
+.padding-nav{
+  display: flex;
+  gap: 50px;
+  justify-content: space-between;
+
+  .naves{
+    display: flex;
+    gap: 24px;
+
+    .navigation{
+      display: flex;
+      gap: 30px;
+    }
+  }
+  .logo {
+    font: var(--logo);
+    color: var(--text-color-primary);
+  }
+}
+

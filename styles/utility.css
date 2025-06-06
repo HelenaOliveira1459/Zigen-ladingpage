@@ -1,0 +1,17 @@
+.container{ 
+  width: min(var(--max-width), 100% - var(--pinline) *2);
+  border: 3px solid red;
+  margin-inline: auto;
+ 
+}
+
+.padding-nav{
+  padding-inline: var(--pnavin);
+  padding-block: var(--pnavb);
+}
+
+.space-section{
+  padding-inline: var(--pinline);
+  padding-block: var(--pblock);
+}
+
