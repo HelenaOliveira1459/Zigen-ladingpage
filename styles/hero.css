@@ -1,6 +1,6 @@
 .hero{
   display: grid;
-  
+  background-color: var(--background-color);
   justify-content: center;
   align-items: center;
   justify-items: center;

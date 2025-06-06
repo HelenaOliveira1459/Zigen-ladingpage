@@ -1,0 +1,10 @@
+.about{
+ 
+  .descricao{
+    color: var(--text-color-primary);
+
+    .about-span{
+      color: var(--brand-color-primary);
+    }
+  }
+}

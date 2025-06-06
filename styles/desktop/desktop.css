@@ -78,6 +78,50 @@
         gap: 8px;
         
       }
+      .mobile-only{
+        display: none;
+      }
+  .about{
+    background-color: var(--surface-color);
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+    align-items: center;
+    .descricao{
+      display: grid;
+      gap: 8px;
+      width: 640px;
+      height: 250px;
+      font-family: var(--font-family-inter);
+      .about-span{
+        font-size: 14px;
+        text-transform: uppercase;
+        
+      }
+      .about-h1{
+        font-size: 48px;
+        letter-spacing: -1.92px;
+        font-weight: 800;
+
+      }
+      .about-p{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 160%;
+        color: var(--text-color-secondary);
+        font-style: normal;
+      }
+
+      .descricao-image{
+        width: 544px;
+        height: 558px;
+      }
+    }
+  }
+
+
+
+
 }
 
 

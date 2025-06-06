@@ -20,6 +20,7 @@
 }
 
 .padding-nav{
+  background-color: var(--background-color);
   display: flex;
   gap: 50px;
   justify-content: space-between;
