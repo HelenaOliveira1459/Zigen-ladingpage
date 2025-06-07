@@ -5,3 +5,5 @@
 @import url(/styles/header.css);
 @import url(/styles/hero.css);
 @import url(/styles/about.css);
+@import url(/styles/features.css) (width >= 376px);
+@import url(/styles/card.css);

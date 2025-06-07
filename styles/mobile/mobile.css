@@ -90,7 +90,7 @@
           height: 380px;
         }
     }
-     .about{
+    .about{
      background-color: var(--surface-color);
 
       display: grid;
@@ -128,8 +128,11 @@
 
         
       }
-  }
-
+   
+    }
+    .features{
+      
+    }
 
 
   }
