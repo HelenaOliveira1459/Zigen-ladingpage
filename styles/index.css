@@ -5,5 +5,7 @@
 @import url(/styles/header.css);
 @import url(/styles/hero.css);
 @import url(/styles/about.css);
-@import url(/styles/features.css) (width >= 376px);
-@import url(/styles/card.css);
+@import url(/styles/desktop/features.css) (width >= 376px);
+@import url(/styles/mobile/card.css);
+@import url(/styles/mobile/princingmob.css) (width <= 375px);
+@import url(/styles/desktop/princing.css) (width >= 376px);

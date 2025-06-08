@@ -1,0 +1,150 @@
+.princing{
+  display: grid;
+  gap: 8px;
+  background-color: var(--background-color);
+  & span{
+    color: var(--brand-color-primary);
+    text-align: center;
+    font-family: var(--font-family-inter);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1.12px;
+  }
+
+  & h1{
+    color: var(--text-color-primary);
+    text-align: center;
+    font-family: var(--font-family-inter);
+    font-size: 24PX;
+    font-weight: 800;
+    letter-spacing: -0.96px;
+    margin-bottom: 32px;
+  }
+
+  .planos{
+    margin-top: 24px;
+    display: grid;
+    gap: 50px;
+
+    .plano{
+      padding:24px;
+      border: 1px solid var(--stroke-color);
+      background-color: var(--surface-color);
+      border-radius: 10px;
+      display: grid;
+      gap: 24px;
+      
+      & > h2{
+        color: var(--text-color-primary);
+        font-family: var(--font-family-inter);
+        font-size: 32px;
+        font-weight: 800;
+        letter-spacing: -1.28px;
+
+      }
+
+      & > button{
+        border-radius: 8px;
+        background-color: var(--background-color);
+        color: var(--text-color-primary);
+        width:279px;
+        height: 48px;
+        border: 1.5px solid var(--text-color-primary);
+        font-family: var(--font-family-inter);
+        font-size: 16px;
+        font-weight: 500;
+      }
+      & > div {
+        display: grid;
+        gap: 8px;
+
+        & > h3 {
+          color: var(--text-color-primary);
+          font-family: var(--font-family-inter);
+          font-weight: 800;
+          letter-spacing: -0.8px;
+          font-size: 20px;
+        }
+
+        & > p {
+          color: var(--text-color-secondary);
+          font-size: 16px;
+          font-weight: 400;
+        }
+      }
+
+      .list ul{
+        display: grid;
+        gap: 16px;
+        padding-block: 32px;
+        text-decoration: none;
+        & > li{
+          display: flex;
+          gap: 10px;
+          color: var(--text-color-secondary);
+
+        }
+      }
+    }
+
+    .plano2 {
+      padding:24px;
+      border: 1px solid var(--stroke-color);
+      background-color: var(--surface-color);
+      border-radius: 10px;
+      border: 2px solid red;
+      display: grid;
+      gap: 24px;
+
+      & > span{
+        color: var(--brand-color-primary);
+        text-align: start;
+        
+        gap: 8px; 
+        width: 180px;
+        height: 40px;
+      }
+      & > button{
+        border-radius: 8px;
+        background-color: var(--text-color-primary);
+        color:black;
+        width:279px;
+        height: 48px;
+        border: 1.5px solid var(--text-color-primary);
+        font-family: var(--font-family-inter);
+        font-size: 16px;
+        font-weight: 500;
+      }
+
+      .valor{
+        display: flex;
+        justify-content: start;
+
+        & h2 {
+          color: var(--text-color-primary);
+          font-size: 32px;
+          font-weight: 800;
+          letter-spacing: -1.28px;
+        }
+        & > span{
+          display: flex;
+          color: var(--text-color-secondary);
+          align-items: center;
+          font-size: 16px;
+          text-transform: lowercase;
+        }
+        
+      }
+    }
+
+    .plano3{
+      border: none;
+
+      & legend{
+        color: var(--text-color-secondary);
+      }
+    }
+  }
+}
