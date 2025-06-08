@@ -36,76 +36,81 @@
       display: grid;
       gap: 24px;
       
-      & > h2{
-        color: var(--text-color-primary);
-        font-family: var(--font-family-inter);
-        font-size: 32px;
-        font-weight: 800;
-        letter-spacing: -1.28px;
-
-      }
-
-      & > button{
-        border-radius: 8px;
-        background-color: var(--background-color);
-        color: var(--text-color-primary);
-        width:279px;
-        height: 48px;
-        border: 1.5px solid var(--text-color-primary);
-        font-family: var(--font-family-inter);
-        font-size: 16px;
-        font-weight: 500;
-      }
-      & > div {
+      & > div{
         display: grid;
         gap: 8px;
-
-        & > h3 {
-          color: var(--text-color-primary);
+        & > h3{
           font-family: var(--font-family-inter);
+          color: var(--text-color-primary);
           font-weight: 800;
           letter-spacing: -0.8px;
-          font-size: 20px;
         }
 
-        & > p {
+        & > p{
           color: var(--text-color-secondary);
           font-size: 16px;
           font-weight: 400;
         }
       }
-
-      .list ul{
+      .baixar{
         display: grid;
-        gap: 16px;
-        padding-block: 32px;
-        text-decoration: none;
-        & > li{
-          display: flex;
-          gap: 10px;
-          color: var(--text-color-secondary);
+        gap: 10px;
+        & > h2{
+          color: var(--text-color-primary);
+          font-size: 32px;
+          font-family: var(--font-family-inter);
+        }
 
+        & > button{
+          width: 279px;
+          height: 48px;
+          display: grid;
+          justify-self: center;
+          padding: 12px 24px;
+          border-radius: 10px;
+        }
+      }
+      .list{
+        & > ul{
+          list-style: none;
+          display: grid;
+          gap: 10px;
+
+          & > li{
+            display: flex;
+            gap: 10px;
+            color: var(--text-color-secondary);
+          }
         }
       }
     }
 
     .plano2 {
-      padding:24px;
+      height: 480px;
+      border: 2px solid red;
+      padding-top: 0px;
       border: 1px solid var(--stroke-color);
       background-color: var(--surface-color);
-      border-radius: 10px;
-      border: 2px solid red;
       display: grid;
       gap: 24px;
-
+      border: 2px solid transparent;
+      border-image: linear-gradient(90deg,
+      var(--brand-color-primary)0%, var(--brand-color-secondary)100%);
+      border-image-slice: 1;
       & > span{
-        color: var(--brand-color-primary);
-        text-align: start;
+        color: black;
+        border-radius: 0px 0px 24px 0px;
         
-        gap: 8px; 
-        width: 180px;
+        padding: 12px 32px;
+        width:180px;
         height: 40px;
+        display: flex;
+        align-items: flex-start;
+        background: linear-gradient(90deg,
+        var(--brand-color-primary)0%, var(--brand-color-secondary)100%);
       }
+
+      
       & > button{
         border-radius: 8px;
         background-color: var(--text-color-primary);
@@ -140,8 +145,31 @@
     }
 
     .plano3{
-      border: none;
+      
+      .valor{
+        display:flex;
+        align-items: center;
+        &  > h2{
+          color: var(--text-color-primary);
+          font-size: 32px;
+          font-weight: 800;
+        }
 
+        & > span{
+          color: var(--text-color-secondary);
+        }
+      }
+      & > button{
+        border-radius: 8px;
+        background-color: var(--text-color-primary);
+        color:black;
+        width:279px;
+        height: 48px;
+        border: 1.5px solid var(--text-color-primary);
+        font-family: var(--font-family-inter);
+        font-size: 16px;
+        font-weight: 500;
+      }
       & legend{
         color: var(--text-color-secondary);
       }
