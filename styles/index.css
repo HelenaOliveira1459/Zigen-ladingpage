@@ -10,3 +10,4 @@
 @import url(/styles/mobile/princingmob.css) (width <= 375px);
 @import url(/styles/desktop/princing.css) (width >= 376px);
 @import url(/styles/desktop/dowloaddesk.css) (width >= 376px);
+@import url(/styles/mobile/downloadmob.css) (width <= 375px);
