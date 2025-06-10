@@ -8,19 +8,7 @@
   align-items: center;
   gap: 40px;
 
-  & > .buttons-principal{
-    & > .button-principal{
-      width: 155px;
-      height: 56px;
-      border-radius: 10px;
-
-    }
-    & > .button-plano{
-      background-color: black;
-      color: var(--text-color-primary);
-      border: 2px solid var(--text-color-primary);
-    }
-  }
+  
    .img-hero{
     display: flex;  
     width: 412px;
