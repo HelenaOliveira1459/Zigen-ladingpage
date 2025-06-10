@@ -1,0 +1,57 @@
+footer{
+  background-color: var(--background-color);
+  padding-bottom: 24px;
+  & > div{
+    padding: 48px;
+    display: grid;
+    gap: 48px;
+    & > .logotipo{
+      color: var(--text-color-primary);
+      font-family: var(--font-family);
+      font-size: 24px;
+    }
+
+    .produtos-footer{
+      display: grid;
+      gap: 64px;
+      & > ul{
+        display: grid;
+        gap: 20px;
+        & > span{
+          font-family: var(--font-family-inter);
+          color: var(--brand-color-primary);
+          font-size: 12px;
+          letter-spacing: 0.96px;
+          text-transform: uppercase;
+          font-weight: 500;
+        }
+
+        & > li{
+          display: grid;
+          gap: 20px;
+          list-style: none;
+
+          & > a{
+            text-decoration: none;
+            color: var(--text-color-secondary);
+
+          }
+        }
+      }
+    }
+  }
+  
+    .social-footer{
+      & > div{
+        display: flex;
+        gap: 24px;
+      }
+
+      & > p{
+        color: var(--text-color-secondary);
+        width: 279px;
+        display: flex;
+        justify-content: center;
+      }
+    }
+}
