@@ -1,6 +1,6 @@
 .download{
   background-color: var(--background-color);
-  padding-inline: 113px;
+  padding-left: 32px;
   padding-block: 80px;
   
 
@@ -8,6 +8,9 @@
     display: flex;
     background-color: var(--surface-color);
     border-radius: 10px;
+    width: 1216px;
+    height: 542px;
+    
     
     .tudo{
       display: flex;
@@ -62,6 +65,8 @@
       }
       
       .redesdonw{
+        display: grid;
+        align-self: flex-end;
         .image-down{
           width: 466px;
           height: 627px;

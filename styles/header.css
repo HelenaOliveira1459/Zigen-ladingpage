@@ -34,7 +34,12 @@
     align-items: center;
     align-content: center;
     align-self: center;
+     & > .button-nav{
+     width: 144px;
+     height: 48px;
+     border-radius: 10px; 
 
+     }
     .navigation{
       display: flex;
       gap: 30px;
